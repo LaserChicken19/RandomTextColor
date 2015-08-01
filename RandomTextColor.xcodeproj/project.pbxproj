@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52DF91C01B69C89200254C57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF91BF1B69C89200254C57 /* AppDelegate.swift */; };
+		52DF91C21B69C89200254C57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF91C11B69C89200254C57 /* ViewController.swift */; };
+		52DF91C51B69C89200254C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DF91C31B69C89200254C57 /* Main.storyboard */; };
+		52DF91C71B69C89200254C57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DF91C61B69C89200254C57 /* Images.xcassets */; };
+		52DF91CA1B69C89200254C57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DF91C81B69C89200254C57 /* LaunchScreen.xib */; };
+		52DF91D61B69C89200254C57 /* RandomTextColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF91D51B69C89200254C57 /* RandomTextColorTests.swift */; };
+		52DF91E01B69C94500254C57 /* RandomColorTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF91DF1B69C94500254C57 /* RandomColorTextFieldDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52DF91D01B69C89200254C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DF91B21B69C89200254C57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DF91B91B69C89200254C57;
+			remoteInfo = RandomTextColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52DF91BA1B69C89200254C57 /* RandomTextColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomTextColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DF91BE1B69C89200254C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DF91BF1B69C89200254C57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52DF91C11B69C89200254C57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52DF91C41B69C89200254C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52DF91C61B69C89200254C57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52DF91C91B69C89200254C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52DF91CF1B69C89200254C57 /* RandomTextColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomTextColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DF91D41B69C89200254C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DF91D51B69C89200254C57 /* RandomTextColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTextColorTests.swift; sourceTree = "<group>"; };
+		52DF91DF1B69C94500254C57 /* RandomColorTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomColorTextFieldDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52DF91B71B69C89200254C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF91CC1B69C89200254C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52DF91B11B69C89200254C57 = {
+			isa = PBXGroup;
+			children = (
+				52DF91BC1B69C89200254C57 /* RandomTextColor */,
+				52DF91D21B69C89200254C57 /* RandomTextColorTests */,
+				52DF91BB1B69C89200254C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52DF91BB1B69C89200254C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52DF91BA1B69C89200254C57 /* RandomTextColor.app */,
+				52DF91CF1B69C89200254C57 /* RandomTextColorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52DF91BC1B69C89200254C57 /* RandomTextColor */ = {
+			isa = PBXGroup;
+			children = (
+				52DF91BF1B69C89200254C57 /* AppDelegate.swift */,
+				52DF91C11B69C89200254C57 /* ViewController.swift */,
+				52DF91C31B69C89200254C57 /* Main.storyboard */,
+				52DF91C61B69C89200254C57 /* Images.xcassets */,
+				52DF91C81B69C89200254C57 /* LaunchScreen.xib */,
+				52DF91DF1B69C94500254C57 /* RandomColorTextFieldDelegate.swift */,
+				52DF91BD1B69C89200254C57 /* Supporting Files */,
+			);
+			path = RandomTextColor;
+			sourceTree = "<group>";
+		};
+		52DF91BD1B69C89200254C57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52DF91BE1B69C89200254C57 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52DF91D21B69C89200254C57 /* RandomTextColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				52DF91D51B69C89200254C57 /* RandomTextColorTests.swift */,
+				52DF91D31B69C89200254C57 /* Supporting Files */,
+			);
+			path = RandomTextColorTests;
+			sourceTree = "<group>";
+		};
+		52DF91D31B69C89200254C57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52DF91D41B69C89200254C57 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52DF91B91B69C89200254C57 /* RandomTextColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DF91D91B69C89200254C57 /* Build configuration list for PBXNativeTarget "RandomTextColor" */;
+			buildPhases = (
+				52DF91B61B69C89200254C57 /* Sources */,
+				52DF91B71B69C89200254C57 /* Frameworks */,
+				52DF91B81B69C89200254C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandomTextColor;
+			productName = RandomTextColor;
+			productReference = 52DF91BA1B69C89200254C57 /* RandomTextColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52DF91CE1B69C89200254C57 /* RandomTextColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DF91DC1B69C89200254C57 /* Build configuration list for PBXNativeTarget "RandomTextColorTests" */;
+			buildPhases = (
+				52DF91CB1B69C89200254C57 /* Sources */,
+				52DF91CC1B69C89200254C57 /* Frameworks */,
+				52DF91CD1B69C89200254C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DF91D11B69C89200254C57 /* PBXTargetDependency */,
+			);
+			name = RandomTextColorTests;
+			productName = RandomTextColorTests;
+			productReference = 52DF91CF1B69C89200254C57 /* RandomTextColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52DF91B21B69C89200254C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Chao Ju";
+				TargetAttributes = {
+					52DF91B91B69C89200254C57 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					52DF91CE1B69C89200254C57 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 52DF91B91B69C89200254C57;
+					};
+				};
+			};
+			buildConfigurationList = 52DF91B51B69C89200254C57 /* Build configuration list for PBXProject "RandomTextColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52DF91B11B69C89200254C57;
+			productRefGroup = 52DF91BB1B69C89200254C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52DF91B91B69C89200254C57 /* RandomTextColor */,
+				52DF91CE1B69C89200254C57 /* RandomTextColorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52DF91B81B69C89200254C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DF91C51B69C89200254C57 /* Main.storyboard in Resources */,
+				52DF91CA1B69C89200254C57 /* LaunchScreen.xib in Resources */,
+				52DF91C71B69C89200254C57 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF91CD1B69C89200254C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52DF91B61B69C89200254C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DF91C21B69C89200254C57 /* ViewController.swift in Sources */,
+				52DF91C01B69C89200254C57 /* AppDelegate.swift in Sources */,
+				52DF91E01B69C94500254C57 /* RandomColorTextFieldDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF91CB1B69C89200254C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DF91D61B69C89200254C57 /* RandomTextColorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52DF91D11B69C89200254C57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DF91B91B69C89200254C57 /* RandomTextColor */;
+			targetProxy = 52DF91D01B69C89200254C57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52DF91C31B69C89200254C57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DF91C41B69C89200254C57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52DF91C81B69C89200254C57 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DF91C91B69C89200254C57 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52DF91D71B69C89200254C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52DF91D81B69C89200254C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52DF91DA1B69C89200254C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RandomTextColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52DF91DB1B69C89200254C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RandomTextColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52DF91DD1B69C89200254C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RandomTextColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomTextColor.app/RandomTextColor";
+			};
+			name = Debug;
+		};
+		52DF91DE1B69C89200254C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RandomTextColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomTextColor.app/RandomTextColor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52DF91B51B69C89200254C57 /* Build configuration list for PBXProject "RandomTextColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF91D71B69C89200254C57 /* Debug */,
+				52DF91D81B69C89200254C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DF91D91B69C89200254C57 /* Build configuration list for PBXNativeTarget "RandomTextColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF91DA1B69C89200254C57 /* Debug */,
+				52DF91DB1B69C89200254C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52DF91DC1B69C89200254C57 /* Build configuration list for PBXNativeTarget "RandomTextColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF91DD1B69C89200254C57 /* Debug */,
+				52DF91DE1B69C89200254C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52DF91B21B69C89200254C57 /* Project object */;
+}
